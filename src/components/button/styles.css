@@ -1,0 +1,21 @@
+.button-component {
+    padding: 19px 32px;
+    width: 327px;
+    height: 56px;
+    outline: transparent;
+    border: transparent;
+    color: #FFFFFF;
+    background: #1FCC79;
+    border-radius: 32px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.007em;
+    cursor: pointer;
+    -webkit-user-select:none;  
+    -moz-user-select:none;     
+    -ms-user-select:none;      
+    user-select:none;  
+}

@@ -1,0 +1,17 @@
+.button-filter-component {
+    color: rgba(159, 165, 192, 1);
+    font-family: 'Roboto';
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.007em;
+    background: rgba(244, 245, 247, 1);
+    border-radius: 32px;
+    width: 89px;
+    height: 48px;
+    cursor: pointer;
+    -webkit-user-select:none;  
+    -moz-user-select:none;     
+    -ms-user-select:none;         
+    user-select:none;  
+    border: none;
+}

@@ -1,0 +1,41 @@
+.header-todolist {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-bottom: 8px solid rgba(244, 245, 247, 1);
+}
+
+.box-button-filter {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.title-filter {
+    margin-left: 25px;
+    color: #2E3E5C;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 27px;
+    letter-spacing: 0.5px;
+}
+
+.box-date-now {
+    border-bottom: 2px solid rgba(244, 245, 247, 1);
+    padding: 15px;
+}
+
+.date-now {
+    color: rgba(46, 62, 92, 1);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 27px;
+    letter-spacing: 0.5px;
+}
+
+

@@ -1,0 +1,88 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 180px;
+}
+
+.box-login {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.login-title {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    margin-bottom: 100px;
+    font-family: 'Roboto';
+}
+
+input {
+    width: 300px;
+    height: 30px;
+    background-color: #FFFFFF;
+    border: 1px solid #D0DBEA;
+    border-radius: 32px;
+    outline: none;
+    padding: 10px;
+}
+
+input::placeholder {
+    color: #9FA5C0;
+    font-family: 'Roboto';
+}
+
+.button-forgot-password {
+    outline: none;
+    background-color: transparent;
+    border: transparent;
+    cursor: pointer; 
+    font-family: 'Roboto';
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0.5px;
+    text-align: right;
+    
+}
+
+.box-forget-password {
+    margin-top: 15px;
+    display: flex;
+    margin-left: 200px;
+    
+}
+
+.box-button-login {
+    margin-top: 150px;
+}
+
+.button-signup {
+    color: #1FCC79;
+    outline: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: right;
+    letter-spacing: 0.5px;
+    margin-left: 5px;
+    text-decoration: none;
+}
+
+.box-signup {
+    margin-top: 125px;
+}
+
+.visible-password {
+    position: absolute;
+    margin-top: -33px;
+    margin-left: 280px;
+    cursor: pointer;
+}
